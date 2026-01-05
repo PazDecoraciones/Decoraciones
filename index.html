@@ -1,8 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <body style="background:red; color:white;">
-    <h1>SI VES ESTO, FUNCIONA</h1>
-    <p>Paz Decoraciones</p>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paz Decoraciones</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 320px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background: #ff6f61;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e85b50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Paz Decoraciones</h1>
+
+        <label>Nombre</label>
+        <input type="text" placeholder="Escriba su nombre">
+
+        <label>Teléfono</label>
+        <input type="tel" placeholder="Ej: 11 1234 5678">
+
+        <button>Enviar</button>
+    </div>
+
+</body>
 </html>
 
