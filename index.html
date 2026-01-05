@@ -94,3 +94,93 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Decoraciones La Paz</title>
+
+<!-- Fuente elegante -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+
+        background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        height: 100vh;
+        color: #e6e6e6;
+    }
+
+    /* Capa oscura elegante */
+    body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.45);
+        z-index: 0;
+    }
+
+    header {
+        position: relative;
+        z-index: 1;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .btn {
+        background: #25D366;
+        color: white;
+        padding: 12px 22px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .btn:hover {
+        background: #1ebe5d;
+    }
+
+    .centro {
+        position: relative;
+        z-index: 1;
+        height: calc(100vh - 80px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 48px;
+        letter-spacing: 2px;
+        color: #dcdcdc; /* plateado claro */
+        text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+        margin: 0;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <a class="btn"
+       href="https://wa.me/5492494272420"
+       target="_blank">
+        Comprar
+    </a>
+</header>
+
+<div class="centro">
+    <h1>Decoraciones La Paz</h1>
+</div>
+
+</body>
+</html>
