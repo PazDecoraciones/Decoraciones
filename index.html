@@ -72,3 +72,39 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Paz Decoraciones</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+
+        /* FONDO NATURAL */
+        background-image: url("https://images.unsplash.com/photo-1523413651479-597eb2da0ad6");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* OSCURECE UN POCO EL FONDO PARA ELEGANCIA */
+    body::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.35);
+        z-index: 0;
+    }
+
+    .producto {
+        position: relative;
+        z-index: 1;
+        max-width:
